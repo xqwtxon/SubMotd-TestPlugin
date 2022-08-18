@@ -1,0 +1,9 @@
+---
+name: TestPlugin
+api: 4.7.2
+author: xqwtxon
+main: TestPlugin\Main
+src-namespace-prefix: TestPlugin
+version: 4.0
+description: "TestPlugin for Sub-MOTD Support"
+...
