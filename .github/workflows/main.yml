@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: PHPStan analysis
+    name: PHP TOOLS
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
