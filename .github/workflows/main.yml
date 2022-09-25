@@ -41,7 +41,7 @@ jobs:
           tools: php-cs-fixer:3.11
       - name: Run Code Style Checks
         continue-on-error: true # e
-        run: php-cs-fixer fix --dry-run --diff --ansi
+        run: php-cs-fixer fix src --dry-run --diff --ansi
       - name: Run PHPStan
         continue-on-error: true # phpstan level 9 (worst)
         run: vendor/bin/phpstan analyze
